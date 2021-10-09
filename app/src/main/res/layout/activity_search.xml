@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".search">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+            <TextView
+                android:id="@+id/textview5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/roboto_condensed_bold"
+                android:text="Search"
+                android:textColor="#454444"
+                android:textSize="25dp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/home"
+                android:layout_width="120dp"
+                android:drawableTop="@drawable/homegrey"
+                android:text="Home"
+                android:textSize="11sp"
+                android:textColor="@color/gray"
+                android:fontFamily="@font/roboto_light"
+                android:background="@color/white"
+                android:layout_height="match_parent"
+                android:padding="15dp">
+            </androidx.appcompat.widget.AppCompatButton>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/search1"
+                android:layout_width="120dp"
+                android:drawableTop="@drawable/search"
+                android:text="Search"
+                android:textSize="11sp"
+                android:textColor="#FE7400"
+                android:fontFamily="@font/roboto_light"
+                android:background="@color/white"
+                android:layout_height="match_parent"
+                android:padding="15dp">
+            </androidx.appcompat.widget.AppCompatButton>
+
+        </LinearLayout>
+
+        </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

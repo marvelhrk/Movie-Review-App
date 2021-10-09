@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".phoneverify">
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="387dp"
+        android:layout_height="741dp"
+        android:background="@drawable/buttonwhite"
+        android:orientation="vertical"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="86dp"
+            android:layout_height="58dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/alfred" />
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="277dp"
+            android:layout_height="213dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/verifyphone" />
+
+        <TextView
+            android:layout_width="259dp"
+            android:layout_height="27dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/roboto_condensed_bold"
+            android:text="Step 2 / 3  "
+            android:textAlignment="center"
+            android:textColor="@color/Blacklogo"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/usingmail"
+            android:layout_width="41dp"
+            android:layout_height="37dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/mobilecheckgrey" />
+
+
+        <TextView
+            android:layout_width="259dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/roboto_light"
+            android:text="You will Recieve OTP After you Complete Captcha Verification from Your Web Browser "
+            android:textAlignment="center"
+            android:textColor="@color/Blacklogo"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/code"
+            android:layout_width="173dp"
+            android:layout_height="66dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Enter OTP"
+            android:inputType="phone"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteY="196dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/Verify"
+            android:layout_width="250dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/button"
+            android:text="Verify"
+            android:textColor="#FF9800"
+            android:textSize="18sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/Resendotp"
+            android:layout_width="250dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button"
+            android:text="Resend OTP"
+            android:textColor="#FF9800"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:inputType="number"
+            android:fontFamily="@font/roboto_thin"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/gray"
+            android:textSize="12sp" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.reviewer">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/alfredlogo"
+        android:label="Alfred"
+        android:roundIcon="@mipmap/alfredlogo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Reviewer"
+        tools:replace="android:label">
+        <activity android:name=".Displaycontent"></activity>
+        <activity android:name=".search" />
+        <activity android:name=".loginotpverify" />
+        <activity android:name=".Mainwindow" />
+        <activity android:name=".forgotpass" />
+        <activity android:name=".mailverify" />
+        <activity android:name=".phoneverify" />
+        <activity android:name=".phonelogin" />
+        <activity android:name=".registration" />
+        <activity android:name=".emailogin" />
+        <activity android:name=".mainmenu" />
+        <activity android:name=".WelcomeScreen" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

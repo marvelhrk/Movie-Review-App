@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeScreen">
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="167dp"
+            android:layout_height="77dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/alfred" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+
+
+            android:fontFamily="@font/roboto_condensed_bold"
+            android:gravity="center_horizontal"
+            android:padding="2dp"
+            android:text="Welcome"
+            android:textAlignment="center"
+            android:textColor="@color/darkgray"
+            android:textSize="40dp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="390dp"
+            android:layout_height="275dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/welcomescreen1" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_light"
+            android:gravity="center_horizontal"
+            android:paddingHorizontal="40dp"
+            android:text="Are you a lover of Cinema? \nThen this is the destination for you. \nAlfred is the World’s Top Digital Entertainment App Portal where you will find all the latest Rating and Reviews of your favorite Movies and Series from the World ."
+            android:textAlignment="center"
+            android:textColor="@color/gray"
+            android:textSize="15dp" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/getstarted"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/button"
+            android:fontFamily="@font/roboto"
+            android:text="Get Started"
+            android:textColor="#FF9800" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="2dp"
+            android:fontFamily="@font/roboto_thin"
+            android:gravity="center_horizontal"
+            android:padding="2dp"
+            android:text="*Terms and Conditions applied."
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="8dp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
