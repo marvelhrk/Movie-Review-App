@@ -25,12 +25,17 @@
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
+
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+
 
 Do you like to watch movies online and spend a lot of time looking for something interesting? Then you should pay attention to the Alfred application. It will help you choose the best movies or series.
+
+<p align="center">
+ <img src="screen_1.png" alt="Logo" width="278" height="556">     <img src="screen_2.png" alt="Logo" width="278" height="556">
+</p>
 
 The movies that are collected here will last you a long time. The collection is updated with new films and recognized masterpieces of past years. Regardless of who you are – a fan of energetic action movies or a fan of youth series. The plenty of the catalog will make you forget about all the other ways of spending leisure time.
 
@@ -39,7 +44,8 @@ In this application, you will find many interesting movie reviews. Reviews are w
 The choice of movies is very wide and diverse. So everyone will find something interesting for themselves, whatever their tastes. This is the golden classic of Hollywood and soulful French comedies.
 
 In the application catalog you will find reviews of films of any genres:
-•	movies about love
+
+• love
 
 •	detective
 
@@ -63,13 +69,14 @@ In the application catalog you will find reviews of films of any genres:
 
 The app Alfred also provides reviews of short films, as well as TV shows. Are you interested in the most iconic films in a particular genre? The search system will help you navigate and find the necessary review.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 ## More Details
 
 Visit My Blog for more Details about the App.
-<p align="right">(<a href="#top">back to top</a>)</p>
+
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
+
 
 
 
@@ -78,7 +85,7 @@ Visit My Blog for more Details about the App.
 
 Distributed under the HrkDev License.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+
 
 
 
@@ -89,6 +96,6 @@ Hritik - [@hrk_kenoff](https://www.instagram.com/hrk_kenoff/) - lit2020076@iiitl
 
 Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+
 
 
