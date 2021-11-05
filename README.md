@@ -19,7 +19,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
     </li>
-    <li><a href="#contributing">More Details</a></li>
+    <li><a href="#more-details">More Details</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -70,7 +70,7 @@ In the application catalog you will find reviews of films of any genres:
 The app Alfred also provides reviews of short films, as well as TV shows. Are you interested in the most iconic films in a particular genre? The search system will help you navigate and find the necessary review.
 
 
-<!-- CONTRIBUTING -->
+<!-- MORE DETAILS -->
 ## More Details
 
 Visit My Blog for more Details about the App.
