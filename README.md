@@ -35,7 +35,6 @@ Do you like to watch movies online and spend a lot of time looking for something
 
 <p align="center">
  <img src="screen_1.png" alt="Logo" width="278" height="556">     <img src="screen_2.png" alt="Logo" width="278" height="556">      
-  <img src="s4.png" alt="Logo" width="278" height="556">
 </p>
 
 The movies that are collected here will last you a long time. The collection is updated with new films and recognized masterpieces of past years. Regardless of who you are – a fan of energetic action movies or a fan of youth series. The plenty of the catalog will make you forget about all the other ways of spending leisure time.
