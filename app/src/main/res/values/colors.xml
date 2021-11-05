@@ -2,6 +2,7 @@
 <resources>
     <color name="purple_200">#FFBB86FC</color>
     <color name="foam">#d4f3fc</color>
+    <color name="orange">#FE7400</color>
     <color name="whitet">#DFDDDD</color>
     <color name="tealblue_200">#077895</color>
     <color name="purple_500">#FF6200EE</color>

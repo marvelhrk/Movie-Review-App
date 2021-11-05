@@ -73,6 +73,7 @@ public class Displaycontent extends AppCompatActivity {
                 .asBitmap()
                 .load(imageUrl)
                 .into(image);
+        Glide.get(this).clearMemory();
 
         TextView name = findViewById(R.id.dname);
         name.setText(imageName);
@@ -108,42 +109,49 @@ public class Displaycontent extends AppCompatActivity {
                 .asBitmap()
                 .load(imagecast1)
                 .into(cast1);
+        Glide.get(this).clearMemory();
 
         ImageView cast2 = findViewById(R.id.dcast2);
         Glide.with(this)
                 .asBitmap()
                 .load(imagecast2)
                 .into(cast2);
+        Glide.get(this).clearMemory();
 
         ImageView cast3 = findViewById(R.id.dcast3);
         Glide.with(this)
                 .asBitmap()
                 .load(imagecast3)
                 .into(cast3);
+        Glide.get(this).clearMemory();
 
         ImageView cast4 = findViewById(R.id.dcast4);
         Glide.with(this)
                 .asBitmap()
                 .load(imagecast4)
                 .into(cast4);
+        Glide.get(this).clearMemory();
 
         ImageView cast5 = findViewById(R.id.dcast5);
         Glide.with(this)
                 .asBitmap()
                 .load(imagecast5)
                 .into(cast5);
+        Glide.get(this).clearMemory();
 
         ImageView cast6 = findViewById(R.id.dcast6);
         Glide.with(this)
                 .asBitmap()
                 .load(imagecast6)
                 .into(cast6);
+        Glide.get(this).clearMemory();
 
         ImageView cimage = findViewById(R.id.dcrticimage);
         Glide.with(this)
                 .asBitmap()
                 .load(imagecimage)
                 .into(cimage);
+        Glide.get(this).clearMemory();
 
         TextView dir = findViewById(R.id.ddirectors);
         dir.setText(imagedirector);

@@ -8,8 +8,13 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:orientation="vertical"
         app:layout_constraintTop_toTopOf="parent">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/textview5"
@@ -21,40 +26,70 @@
                 android:text="Search"
                 android:textColor="#454444"
                 android:textSize="25dp" />
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="70dp"
-            android:layout_centerHorizontal="true"
-            android:layout_alignParentBottom="true"
-            android:orientation="horizontal">
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/home"
-                android:layout_width="120dp"
-                android:drawableTop="@drawable/homegrey"
-                android:text="Home"
-                android:textSize="11sp"
-                android:textColor="@color/gray"
-                android:fontFamily="@font/roboto_light"
-                android:background="@color/white"
-                android:layout_height="match_parent"
-                android:padding="15dp">
-            </androidx.appcompat.widget.AppCompatButton>
+            <EditText
+                android:id="@+id/searchbart"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/lightgreybutton"
+                android:drawableLeft="@drawable/search"
+                android:drawablePadding="5dp"
+                android:hint="Movies, Shows or documentry"
+                android:inputType="text"
+                android:maxLines="1"
+                android:paddingLeft="15dp"
+                android:textColor="#4E4D4D"
+                android:textSize="15dp" />
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/search1"
-                android:layout_width="120dp"
-                android:drawableTop="@drawable/search"
-                android:text="Search"
-                android:textSize="11sp"
-                android:textColor="#FE7400"
-                android:fontFamily="@font/roboto_light"
-                android:background="@color/white"
-                android:layout_height="match_parent"
-                android:padding="15dp">
-            </androidx.appcompat.widget.AppCompatButton>
+            <ImageView
+                android:id="@+id/noresult"
+                android:layout_width="244dp"
+                android:layout_height="185dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:visibility="gone"
+                app:srcCompat="@drawable/noresult" />
+            <TextView
+                android:id="@+id/notext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/roboto_condensed_bold"
+                android:text="No Results Found"
+                android:visibility="gone"
+                android:textColor="#454444"
+                android:textSize="20dp" />
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerViews"
+                    android:layout_width="match_parent"
+                    android:layout_height="752dp"
+                    android:layout_below="@+id/tvshows"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="8dp"
+                    android:orientation="horizontal"
+                    android:padding="5dp"></androidx.recyclerview.widget.RecyclerView>
+
+            </androidx.core.widget.NestedScrollView>
         </LinearLayout>
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bottom_navigation"
+            app:itemTextColor="@drawable/selector"
+            app:itemIconTint="@drawable/selector"
+            app:menu="@menu/menu_navigation"
+            android:layout_alignParentBottom="true">
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
 
         </RelativeLayout>
 

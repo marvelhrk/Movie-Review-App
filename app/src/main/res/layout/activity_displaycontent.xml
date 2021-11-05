@@ -229,12 +229,12 @@
                         <androidx.cardview.widget.CardView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            app:cardCornerRadius="60dp"
+                            app:cardCornerRadius="50dp"
                             >
                 <ImageView
                     android:id="@+id/dcast1"
-                    android:layout_width="120dp"
-                    android:layout_height="120dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
                     android:scaleType="centerCrop"
                     android:adjustViewBounds="true"
                     android:src="@drawable/moneyheist"
@@ -245,12 +245,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
-                    app:cardCornerRadius="60dp"
+                    app:cardCornerRadius="50dp"
                     >
                     <ImageView
                         android:id="@+id/dcast2"
-                        android:layout_width="120dp"
-                        android:layout_height="120dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
                         android:scaleType="centerCrop"
                         android:adjustViewBounds="true"
                         android:src="@drawable/moneyheist"
@@ -261,12 +261,12 @@
                     android:layout_width="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_height="wrap_content"
-                    app:cardCornerRadius="60dp"
+                    app:cardCornerRadius="50dp"
                     >
                     <ImageView
                         android:id="@+id/dcast3"
-                        android:layout_width="120dp"
-                        android:layout_height="120dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
                         android:scaleType="centerCrop"
                         android:adjustViewBounds="true"
                         android:src="@drawable/moneyheist"
@@ -276,12 +276,12 @@
                     android:layout_width="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_height="wrap_content"
-                    app:cardCornerRadius="60dp"
+                    app:cardCornerRadius="50dp"
                     >
                     <ImageView
                         android:id="@+id/dcast4"
-                        android:layout_width="120dp"
-                        android:layout_height="120dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
                         android:scaleType="centerCrop"
                         android:adjustViewBounds="true"
                         android:src="@drawable/moneyheist"
@@ -291,12 +291,12 @@
                     android:layout_width="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_height="wrap_content"
-                    app:cardCornerRadius="60dp"
+                    app:cardCornerRadius="50dp"
                     >
                     <ImageView
                         android:id="@+id/dcast5"
-                        android:layout_width="120dp"
-                        android:layout_height="120dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
                         android:scaleType="centerCrop"
                         android:adjustViewBounds="true"
                         android:src="@drawable/moneyheist"
@@ -306,12 +306,12 @@
                     android:layout_width="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_height="wrap_content"
-                    app:cardCornerRadius="60dp"
+                    app:cardCornerRadius="50dp"
                     >
                     <ImageView
                         android:id="@+id/dcast6"
-                        android:layout_width="120dp"
-                        android:layout_height="120dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
                         android:scaleType="centerCrop"
                         android:adjustViewBounds="true"
                         android:src="@drawable/moneyheist"
@@ -323,7 +323,7 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="15dp"
             android:orientation="horizontal">
         <TextView
             android:layout_width="wrap_content"
@@ -565,7 +565,7 @@
             android:textAlignment="viewStart"
             android:layout_marginRight="10dp"
             android:textColor="@color/white"
-            android:textSize="13sp" />
+            android:textSize="12sp" />
 
 
     </LinearLayout>

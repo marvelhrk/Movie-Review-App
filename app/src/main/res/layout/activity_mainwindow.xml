@@ -49,6 +49,7 @@
         <androidx.core.widget.NestedScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginBottom="60dp"
             android:layout_below="@+id/rellay">
 
         <LinearLayout
@@ -68,7 +69,7 @@
                 android:layout_gravity="center"
                 android:layout_height="180dp"
                 app:iss_auto_cycle="true"
-                app:iss_period="3000"
+                app:iss_period="2000"
                 app:iss_delay="0"/>
             <com.facebook.shimmer.ShimmerFrameLayout
                 android:id="@+id/shimmer1"
@@ -134,7 +135,7 @@
                 android:layout_below="@+id/rellay"
                 android:layout_marginTop="8dp"
                 android:fontFamily="@font/roboto_condensed_bold"
-                android:text="Recently Added Movies"
+                android:text="New Arrivals"
                 android:textColor="#454444"
                 android:textSize="19dp" />
 
@@ -175,41 +176,17 @@
         </LinearLayout>
 
         </androidx.core.widget.NestedScrollView>
+<com.google.android.material.bottomnavigation.BottomNavigationView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/bottom_navigation"
+    app:itemTextColor="@drawable/selector"
+    app:itemIconTint="@drawable/selector"
+    app:menu="@menu/menu_navigation"
+    android:layout_alignParentBottom="true">
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="70dp"
-           android:layout_centerHorizontal="true"
-            android:layout_alignParentBottom="true"
-            android:orientation="horizontal">
+</com.google.android.material.bottomnavigation.BottomNavigationView>
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/home"
-                android:layout_width="120dp"
-                android:drawableTop="@drawable/home"
-                android:text="Home"
-                android:textSize="11sp"
-                android:textColor="#FE7400"
-                android:fontFamily="@font/roboto_light"
-                android:background="@color/white"
-                android:layout_height="match_parent"
-                android:padding="15dp">
-            </androidx.appcompat.widget.AppCompatButton>
-
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/search1"
-                android:layout_width="120dp"
-                android:drawableTop="@drawable/search_grey"
-                android:text="Search"
-                android:textSize="11sp"
-                android:textColor="@color/gray"
-                android:fontFamily="@font/roboto_light"
-                android:background="@color/white"
-                android:layout_height="match_parent"
-                android:padding="15dp">
-            </androidx.appcompat.widget.AppCompatButton>
-
-        </LinearLayout>
 
 
     </RelativeLayout>

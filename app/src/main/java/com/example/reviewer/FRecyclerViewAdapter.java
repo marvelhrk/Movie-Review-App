@@ -31,7 +31,10 @@ public class FRecyclerViewAdapter extends RecyclerView.Adapter<FRecyclerViewAdap
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.layout_listitem, parent, false);
         return new MyViewHolder(view);
     }
-
+public   void filterList(ArrayList<ProductsModel>filterList){
+        userArrayList= filterList;
+        notifyDataSetChanged();
+}
     @Override
     public void onBindViewHolder(@NonNull FRecyclerViewAdapter.MyViewHolder holder, int position) {
         ProductsModel user = userArrayList.get(position);
@@ -40,6 +43,7 @@ public class FRecyclerViewAdapter extends RecyclerView.Adapter<FRecyclerViewAdap
                 .asBitmap()
                 .load(user.mImageUrls)
                 .into(holder.image);
+        Glide.get(context).clearMemory();
         holder.name.setText(user.mNames);
         holder.desc.setText(user.mDesc);
         holder.vidid.setText(user.mVidId);
