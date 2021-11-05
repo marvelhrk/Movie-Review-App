@@ -75,7 +75,7 @@ The app Alfred also provides reviews of short films, as well as TV shows. Are yo
 
 Visit My Blog for more Details about the App.
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<a href="https://stackoverflow.com/"><img src="app/src/main/res/drawable/logoalfred.png"></img></a>
 
 
 
