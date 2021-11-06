@@ -34,7 +34,7 @@
 Do you like to watch movies online and spend a lot of time looking for something interesting? Then you should pay attention to the Alfred application. It will help you choose the best movies or series.
 
 <p align="center">
- <img src="screenshot-1.png" alt="Logo" width="278" height="556">     <img src="screenshot-2.png" alt="Logo" width="278" height="556">      
+ <img src="screenshot-1.jpg" alt="Logo" width="278" height="580">     <img src="screenshot-2.jpg" alt="Logo" width="278" height="580">      
 </p>
 
 The movies that are collected here will last you a long time. The collection is updated with new films and recognized masterpieces of past years. Regardless of who you are – a fan of energetic action movies or a fan of youth series. The plenty of the catalog will make you forget about all the other ways of spending leisure time.
