@@ -75,7 +75,7 @@ The app Alfred also provides reviews of short films, as well as TV shows. Are yo
 
 Click on the Image to visit My Blog for more Details about the App.
 
-<a href="https://hrkdev.blogspot.com/"><img src="scr1.png"></img></a>
+<a href="https://hrkdev.blogspot.com/2021/11/alfred-movie-review-app.html"><img src="scr1.png"></img></a>
 
 
 
