@@ -92,7 +92,8 @@ Distributed under the HrkDev License.
 ## Contact
 
 Hritik - [@hrk_kenoff](https://www.instagram.com/hrk_kenoff/) - lit2020076@iiitl.ac.in
-Blog Link: [https://github.com/your_username/repo_name](https://hrkdev.blogspot.com/)
+
+Blog Link: [https://hrkdev.blogspot.com/](https://hrkdev.blogspot.com/)
 
 
 
