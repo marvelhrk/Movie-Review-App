@@ -1,6 +1,6 @@
 
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a>
     <img src="app/src/main/res/drawable/logoalfred.png" alt="Logo" width="283" height="184">
   </a>
 
@@ -92,8 +92,7 @@ Distributed under the HrkDev License.
 ## Contact
 
 Hritik - [@hrk_kenoff](https://www.instagram.com/hrk_kenoff/) - lit2020076@iiitl.ac.in
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Blog Link: [https://github.com/your_username/repo_name](https://hrkdev.blogspot.com/)
 
 
 
